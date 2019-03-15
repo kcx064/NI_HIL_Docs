@@ -1,5 +1,7 @@
 site_name: NIHILDocs
+
 nav: 
     - Home: index.md
     - About: about.md
 theme: readthedocs
+docs_dir: ./docs

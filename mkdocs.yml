@@ -1,5 +1,5 @@
 site_name: LearnDocs
-nav:
-    - Home: index.md
-    - About: about.md
+docs:
+    - Home: docs/index.md
+    - About: docs/about.md
 theme: readthedocs

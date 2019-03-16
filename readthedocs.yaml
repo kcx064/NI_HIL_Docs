@@ -1,7 +1,8 @@
 version: 2
-formats: all
+formats: 
+  - pdf
 python:
-   version: 2
+   version: 2.7
 mkdocs:
   configuration: mkdocs.yml
   fail_on_warning: false

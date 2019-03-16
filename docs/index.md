@@ -52,7 +52,7 @@
   - 文件夹`软件包`中存放了本平台需要的软件平台安装包，使用本平台需要先安装文件夹中的软件，**本软件包不包含Matlab2016b**。
   - 文件夹`项目文件`中存放本平台使用的项目文件，需要安装`软件包`中的软件后才可以使用
 
-- 文件夹`软件包`中文件关系说明如下，[软件版本兼容性请点此查看](www.ni.com/product-documentation/54028/en/)
+- 文件夹`软件包`中文件关系说明如下，[软件版本兼容性请点此查看](http://www.ni.com/product-documentation/54028/en/)
 
   <style type="text/css">
   .tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;}

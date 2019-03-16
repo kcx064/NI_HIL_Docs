@@ -1,6 +1,6 @@
 site_name: NIHILDocs
 
-nav: 
+nav:
     - Home: index.md
     - About: about.md
 theme: readthedocs

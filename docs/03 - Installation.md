@@ -4,7 +4,7 @@
 
 进入文件夹`软件包`找到文件`VS2010_x86.iso`解压后，（**或者用虚拟光驱挂载镜像，下同；WIn10可以直接打开ISO文件,下同**），后进入解压后的文件夹运行其中的`setup.exe`程序，之后按照弹出的界面提示安装。
 
-> - 尽量将所有软件安装在同一个盘符中，比如都放在`C`盘或者放在`D`盘等，否则可能会在编译模型的时候出现找不到文件的问题。
+> - 尽量将**Visual Studio 2010 32bit**和后面的 **Visual Studio 2010 32bit SP1、Matlab2016b、VeriStand 2017、Labview2017 32bit**安装在同一个盘符，避免后面编译的时候出现各种问题。其他软件不对安装位置做特殊要求。
 > - 如果有的话，请安装所有可以选择的组件
 
 
@@ -22,7 +22,7 @@
 
 从实验室网盘或者其他位置，找到`Matlab2016b`的安装包，安装即可。
 
-> - 如果是人生第一次安装，请自行网上找教程
+> - 如果是第一次安装，请自行网上找教程
 
 
 
@@ -210,7 +210,7 @@
 
 
 
-### 3.8 FlightGear2016
+### 3.8 FlightGear2018
 
 进入文件夹 `软件包`找到文件 `FlightGear-2016.1.2.exe`双击运行后，按照下面**图示**和**提示**操作即可：
 
@@ -248,29 +248,29 @@
 
 安装完成 `FlightGear`后需要将我们的旋翼无人机模型手动导入，用以显示仿真效果。
 
-进入 文件夹`软件包`找到文件 `F450.zip`将其解压后，放到FlightGear的安装目录中去，具体路径是 `.\FlightGear 2016.1.2\data\Aircraft`
+进入 文件夹`软件包`找到文件 `F450.zip`将其解压后，放到FlightGear的安装目录中去，具体路径是 `.\FlightGear 2018.3.2\data\Aircraft`
 
-> 举例：比如FlightGear安装在了默认路径中，即 `C:\Program Files\FlightGear 2016.1.2`那么将**解压后**的`F450.zip`即文件夹 `F450`复制到`C:\Program Files\FlightGear 2016.1.2\data\Aircraft`中，复制后的目录结构如下图，请复制后与下图比对，检查路径结构是否与图中一致。
+> 举例：比如FlightGear安装在了默认路径中，即 `C:\Program Files\FlightGear 2018.3.2`那么将**解压后**的`F450.zip`即文件夹 `F450`复制到`C:\Program Files\FlightGear 2018.3.2\data\Aircraft`中，复制后的目录结构如下图，请复制后与下图比对，检查路径结构是否与图中一致。
 >
 > ![FlightGear_12](assets/FlightGear_12.png)
 
-安装好模型后如何启动？可以在电脑桌面上，`右键`$\rightarrow$ `快捷菜单`$\rightarrow$ `新建`$\rightarrow$ `文本文档`，打开新建的文本文档后复制粘贴以下内容：
+安装好模型后如何启动？在 `软件包`目录下找到文件`runfg-HILonPXI.bat` 用**记事本**或者其他**文本编辑器**打开按照如下进行相应修改（<u>**不要直接复制下面的脚本内容，否则可能会因为复制产生的多余字符导致脚本无法运行**</u>）：
 
 ```bat
 C:
-cd C:\Program Files\FlightGear 2016.1.2
+cd C:\Program Files\FlightGear 2018.3.2
 
-SET FG_ROOT=C:\Program Files\FlightGear 2016.1.2\data
-.\\bin\fgfs --aircraft=F450 --fdm=null --native-fdm=socket,in,30,192.168.199.129,5502,udp --native-ctrls=socket,out,30,192.168.199.129,5505,udp --fog-fastest --disable-clouds --start-date-lat=2017:06:01:21:00:00 --disable-sound --in-air --disable-freeze --airport=KSF0 --runway=10L --altitude=0 --heading=0 --offset-distance=0 --offset-azimuth=0 --timeofday=noon
+SET FG_ROOT=C:\Program Files\FlightGear 2018.3.2\data
+.\\bin\fgfs --aircraft=F450 --fdm=null --native-fdm=socket,in,30,192.168.199.129,5502,udp --native-ctrls=socket,out,30,192.168.199.129,5505,udp --fog-fastest --disable-clouds --start-date-lat=2019:03:01:21:00:00 --disable-sound --in-air --disable-freeze --airport=PHNL --runway=08L --altitude=1 --heading=0 --offset-distance=0 --offset-azimuth=0 --timeofday=noon
 ```
 
 > 代码说明：上面代码中
 >
 > - 第一行：请将 `C`修改为`FlightGear`软件的安装盘符
-> - 第二行：将 `C:\Program Files\FlightGear 2016.1.2`替换为自己的`FlightGear`安装路径，建议安装时使用默认路径，或者只修改盘符，这样第二行代码你只需要修改对应的**盘符**即可
-> - 第四行：同样将其中的 `C:\Program Files\FlightGear 2016.1.2`修改为自己的 `FlightGear`的安装路径，如果只是盘符不同，修改**盘符**即可。
+> - 第二行：将 `C:\Program Files\FlightGear 2018.3.2`替换为自己的`FlightGear`安装路径，建议安装时使用默认路径，或者只修改盘符，这样第二行代码你只需要修改对应的**盘符**即可
+> - 第四行：同样将其中的 `C:\Program Files\FlightGear 2018.3.2`修改为自己的 `FlightGear`的安装路径，如果只是盘符不同，修改**盘符**即可。
 > - 第五行以及后面：将第五行以及后面的IP地址（显然一共有两个IP地址）修改为自己电脑所在局域网的IP地址， 即，将**两个**`192.168.199.129` **都修改为自己的局域网IP，这两个一定要相同**，如何查看自己的局域网IP请网上搜索，有很多方法。
-> - 全部修改完成后，保存退出。修改文件的后缀名为 `.bat`，然后起一个自己喜欢的名字。双击运行即可。
+> - 全部修改完成后，保存退出。双击运行即可。脚本文件可以放在磁盘的任何位置，这里没有特别的要求。
 >
 > ![FlightGear_13](assets/FlightGear_13.png)
 
@@ -401,3 +401,19 @@ SET FG_ROOT=C:\Program Files\FlightGear 2016.1.2\data
 ### 3.13 卸载工具
 
 在文件夹 `软件包`中找到 `卸载工具.rar`解压，进入解压后的文件夹，里面就是卸载工具。具体用法和说明请看下文中 `5. 卸载`。
+
+
+
+### 3.14 QGC地面站
+
+在文件夹`软件包`中找到`QGroundControl-installer_3.2.7.exe`双击运行安装。
+
+> 飞控PX4固件版本与QGC地面站版本有些对应关系，所以QGC地面站不建议使用太新的版本，使用提供的版本即可。否则会出现无法正常连接飞控的问题
+
+![1554109460963](D:\myWorkSpace\ReadTheDocsProj\NI_HIL_Docs\docs\03 - Installation.assets\QGC_1.png)
+
+选择安装目录，点击安装即可
+
+![QGC_2](D:\myWorkSpace\ReadTheDocsProj\NI_HIL_Docs\docs\03 - Installation.assets\QGC_2.png)
+
+**如果是电脑第一次安装那么会提示安装驱动，按照提示允许安装即可**。

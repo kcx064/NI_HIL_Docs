@@ -12,6 +12,7 @@
 
   - 文件夹`软件包`中存放了本平台需要的软件平台安装包，使用本平台需要先安装文件夹中的软件，**本软件包不包含Matlab2016b**。
   - 文件夹`项目文件`中存放本平台使用的项目文件，需要安装`软件包`中的软件后才可以使用
+  - 文件夹`操作视频`中存放了平台使用的视频教程，有些操作用文字描述不是很方便，所以提供视频供参考。但是需要注意的是，由于后期对视频中相关软件的操作界面会做一些调整，所以视频中的软件界面与实际可能有出入，注意变通。
 
 - 文件夹`软件包`中文件关系说明如下，[软件版本兼容性请点此查看](http://www.ni.com/product-documentation/54028/en/)
 
@@ -83,8 +84,8 @@
     </tr>
     <tr>
       <td class="tg-s6z2">8</td>
-      <td class="tg-s6z2">FlightGear2016</td>
-      <td class="tg-s6z2">FlightGear-2016.1.2.exe</td>
+      <td class="tg-s6z2">FlightGear2018</td>
+      <td class="tg-s6z2">FlightGear-2016.3.2.exe</td>
       <td class="tg-s6z2">可视化软件，仅仅显示功能</td>
       <td class="tg-s6z2"></td>
     </tr>
@@ -123,6 +124,13 @@
       <td class="tg-lyaj">卸载NI软件</td>
       <td class="tg-lyaj">卸载不干净时尝试使用<br>正常请从控制面板卸载</td>
     </tr>
+    <tr>
+      <td class="tg-lyaj">14</td>
+      <td class="tg-lyaj">QGC地面站</td>
+      <td class="tg-lyaj">QGroundControl-installer_3.2.7.exe</td>
+      <td class="tg-lyaj">飞控地面站</td>
+      <td class="tg-lyaj">这里主要用来校准飞控<br>设置飞控参数等</td>
+    </tr>
   </table>
 
 - `项目文件`中主要包含SImulink模型文件以及Labview2017项目文件用于运行仿真平台
@@ -134,3 +142,4 @@
 - 使用该平台，首先需要将硬件搭建好，效果见上图。硬件的搭建需要将飞控与PXI机箱连接（见第四章）。还应该将PXI机箱与PC机都连接在**同一个局域网中**。软件部分则需要在PC机中安装好对应的软件（见第三章），另外PXI机箱可能也需要通过PC机安装对应的软件（见第四章）。这些在下文中有详细介绍。
 
 - 本指南以**Pixhawk飞控**和**PX4 1.6.5版本固件**为准编写。
+

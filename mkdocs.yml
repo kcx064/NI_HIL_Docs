@@ -1,7 +1,12 @@
-site_name: NIHILDocs
+site_name: 基于PXI的半物理实时仿真平台使用指南
 
 nav:
-    - Home: index.md
-    - About: about.md
+    - 主要内容: 01 - index.md
+    - 平台介绍与总览: 02 - PlatformOverview.md
+    - 安装: 03 - Installation.md
+    - 配置与使用: 04 - Configuration&Operation.md
+    - 卸载: 05 - UnInstallation.md
+    - 已知问题与解决方案: 06 - FAQ.md
+    - 关于: about.md
 theme: readthedocs
 docs_dir: ./docs

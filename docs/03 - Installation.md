@@ -410,10 +410,10 @@ SET FG_ROOT=C:\Program Files\FlightGear 2018.3.2\data
 
 > 飞控PX4固件版本与QGC地面站版本有些对应关系，所以QGC地面站不建议使用太新的版本，使用提供的版本即可。否则会出现无法正常连接飞控的问题
 
-![1554109460963](D:\myWorkSpace\ReadTheDocsProj\NI_HIL_Docs\docs\03 - Installation.assets\QGC_1.png)
+![1554109460963](.\03 - Installation.assets\QGC_1.png)
 
 选择安装目录，点击安装即可
 
-![QGC_2](D:\myWorkSpace\ReadTheDocsProj\NI_HIL_Docs\docs\03 - Installation.assets\QGC_2.png)
+![QGC_2](.\03 - Installation.assets\QGC_2.png)
 
 **如果是电脑第一次安装那么会提示安装驱动，按照提示允许安装即可**。

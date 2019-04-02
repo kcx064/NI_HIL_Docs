@@ -3,11 +3,11 @@ formats:
   - pdf
 python:
    version: 2.7
-   use_system_site_packages: true
-   setup_py_install: true
-   pip_install: true
-   extra_requirements: 
-    - mkdocs-material
+   # use_system_site_packages: true
+   # setup_py_install: true
+   # pip_install: true
+   # extra_requirements: 
+   #  - mkdocs-material
 mkdocs:
   configuration: mkdocs.yml
   fail_on_warning: false

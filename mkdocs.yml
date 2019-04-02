@@ -8,5 +8,5 @@ nav:
     - 卸载: 05-UnInstallation.md
     - 已知问题与解决方案: 06-FAQ.md
     - 关于: about.md
-theme: material
+theme: rtd-dropdown
 docs_dir: ./docs

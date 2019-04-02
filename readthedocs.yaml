@@ -3,6 +3,9 @@ formats:
   - pdf
 python:
    version: 2.7
+   pip_install: true
+   extra_requirements: 
+    - mkdocs-material
 mkdocs:
   configuration: mkdocs.yml
   fail_on_warning: false

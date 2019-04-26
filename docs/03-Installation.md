@@ -180,31 +180,31 @@
 
 1. 在开始菜单中找到 `VI Package Manager`打开，如下图：
 
-	![SPI_2](assets/SPI_2.png)
+    ![SPI_2](assets/SPI_2.png)
 
 2. 稍等片刻
 
-	![SPI_3](assets/SPI_3.png)
+    ![SPI_3](assets/SPI_3.png)
 
 3. 第一次打开需要等待较长时间。等待其完成刷新列表。
 
-	![SPI_4](assets/SPI_4.png)
+    ![SPI_4](assets/SPI_4.png)
 
 4. 按照下图所示顺序，操作。
 
-	![SPI_5](assets/SPI_5.png)
+    ![SPI_5](assets/SPI_5.png)
 
 5. 如果出现图示对话框，按照下图操作：
 
-	![SPI_6](assets/SPI_6.png)
+    ![SPI_6](assets/SPI_6.png)
 
 6. 又出现下图提示，如图，选择接受。
 
-	![SPI_7](assets/SPI_7.png)
+    ![SPI_7](assets/SPI_7.png)
 
 7. 之后可能会弹出Labview2017的启动界面，不用理会。等待直到出现下图内容，表示安装完成。
 
-	![SPI_8](assets/SPI_8.png)
+    ![SPI_8](assets/SPI_8.png)
 
 8. 到这里SPI模块就安装完成了。
 
@@ -280,91 +280,91 @@ SET FG_ROOT=C:\Program Files\FlightGear 2018.3.2\data
 
 1. 进入文件夹 `软件包`找到文件 `TestCase数据库安装.zip` 后解压，进入解压后的文件夹
 
-	![TestCase数据库_1](assets/TestCase数据库_1.png)
+    ![TestCase数据库_1](assets/TestCase数据库_1.png)
 
 2. 进入解压后的文件夹后看到下图中内容，将图中红框中的文件件夹复制到自己喜欢的位置，复制的路径最好不要有中文。复制后，进入该文件夹即 `Navicat for MySQL`内，里面还有一个文件夹也是 `Navicat for MySQL`，进入。也就是路径 `.\Navicat for MySQL\Navicat for MySQL`中，在里面找到程序文件 `navicat.exe`，这个文件就是执行程序，这是一个绿色软件不需要安装，为了方便起见，**在桌面创建一个快捷方式**。
 
-	![TestCase数据库_2](assets/TestCase数据库_2.png)
+    ![TestCase数据库_2](assets/TestCase数据库_2.png)
 
 3. 回到文件夹 `TestCase数据库安装`中， 选择下图中红色框中的软件，运行之。
 
-	![TestCase数据库_3](assets/TestCase数据库_3.png)
+    ![TestCase数据库_3](assets/TestCase数据库_3.png)
 
 4. 出现下面安装界面，之后按照后面图示操作，
 
-	![TestCase数据库_4](assets/TestCase数据库_4.png)
+    ![TestCase数据库_4](assets/TestCase数据库_4.png)
 
-	![TestCase数据库_5](assets/TestCase数据库_5.png)
+    ![TestCase数据库_5](assets/TestCase数据库_5.png)
 
-	![TestCase数据库_6](assets/TestCase数据库_6.png)
+    ![TestCase数据库_6](assets/TestCase数据库_6.png)
 
-	![TestCase数据库_7](assets/TestCase数据库_7.png)
+    ![TestCase数据库_7](assets/TestCase数据库_7.png)
 
-	![TestCase数据库_8](assets/TestCase数据库_8.png)
+    ![TestCase数据库_8](assets/TestCase数据库_8.png)
 
-	![TestCase数据库_9](assets/TestCase数据库_9.png)
+    ![TestCase数据库_9](assets/TestCase数据库_9.png)
 
 5. 安装过程中会弹出下面对话框，直接选择 `打开`即可。
 
-	![TestCase数据库_10](assets/TestCase数据库_10.png)
+    ![TestCase数据库_10](assets/TestCase数据库_10.png)
 
 6. 这里直接点 `Next`。再点击 `Finish`。
 
-	![TestCase数据库_11](assets/TestCase数据库_11.png)
+    ![TestCase数据库_11](assets/TestCase数据库_11.png)
 
-	![TestCase数据库_12](assets/TestCase数据库_12.png)
+    ![TestCase数据库_12](assets/TestCase数据库_12.png)
 
 7. 安装完成后，回到电脑桌面，找到前面创建的快捷方式，双击运行。
 
-	![TestCase数据库_14](assets/TestCase数据库_14.png)
+    ![TestCase数据库_14](assets/TestCase数据库_14.png)
 
 8. 出现下图软件界面，菜单中选择`文件`$\rightarrow$ `新建连接...`如图：
 
-	![TestCase数据库_15](assets/TestCase数据库_15.png)
+    ![TestCase数据库_15](assets/TestCase数据库_15.png)
 
 9. 在弹出的界面中，按照下图所示输入图中内容 `localhost`和`3306`，最后点击 `确定`。
 
-	![TestCase数据库_16](assets/TestCase数据库_16.png)
+    ![TestCase数据库_16](assets/TestCase数据库_16.png)
 
 10. 如下图，**双击**图示连接 `localhost_3306`，之后，**右键**出现快捷菜单中，选择 `新建数据库...`：
 
-	![TestCase数据库_17](assets/TestCase数据库_17.png)
+    ![TestCase数据库_17](assets/TestCase数据库_17.png)
 
-	如图：
+    如图：
 
-	![TestCase数据库_18](assets/TestCase数据库_18.png)
+    ![TestCase数据库_18](assets/TestCase数据库_18.png)
 
-	如图：
+    如图：
 
-	![TestCase数据库_19](assets/TestCase数据库_19.png)
+    ![TestCase数据库_19](assets/TestCase数据库_19.png)
 
 11. 在弹出的对话框中，输入下图中所示内容 `sddata`，然后点击 `确定`
 
-	![TestCase数据库_20](assets/TestCase数据库_20.png)
+    ![TestCase数据库_20](assets/TestCase数据库_20.png)
 
 12. 然后在==**双击**==新建的数据库 `sddata` ，然后**右键**在快捷菜单中选择 `运行SQL文件...` :
 
-	![TestCase数据库_21](assets/TestCase数据库_21.png)
+    ![TestCase数据库_21](assets/TestCase数据库_21.png)
 
-	如图：
+    如图：
 
-	![TestCase数据库_22](assets/TestCase数据库_22.png)
+    ![TestCase数据库_22](assets/TestCase数据库_22.png)
 
 13. 在弹出的对话框中，点击右侧的按钮（图中红框标出的按钮）
 
-	![TestCase数据库_23](assets/TestCase数据库_23.png)
+    ![TestCase数据库_23](assets/TestCase数据库_23.png)
 
 14. 导航到 `软件包` $\rightarrow$ `TestCase数据库安装`，选择文件 `sddata.sql`，然后点击打开，如图所示：
 
-	![TestCase数据库_24](assets/TestCase数据库_24.png)
+    ![TestCase数据库_24](assets/TestCase数据库_24.png)
 
 15. 随后回到下图界面，点击 `开始`按钮，
 
-	![TestCase数据库_25](assets/TestCase数据库_25.png)
+    ![TestCase数据库_25](assets/TestCase数据库_25.png)
 
 16. 出现下图，进度条走完后，点击关闭。就完成了测试用例数据库的安装。之后关闭该软件。
 
-	![TestCase数据库_26](assets/TestCase数据库_26_1.png)
+    ![TestCase数据库_26](assets/TestCase数据库_26_1.png)
 
 
 

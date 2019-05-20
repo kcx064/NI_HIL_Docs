@@ -1,7 +1,6 @@
 site_name: 基于PXI的半物理实时仿真平台使用指南
 
 nav:
-    - 主要内容: index.md
     - 平台介绍与总览: 02-PlatformOverview.md
     - 安装: 03-Installation.md
     - 配置与使用: 04-Configuration&Operation.md
